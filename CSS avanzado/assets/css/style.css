@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+main {
+    display: flex;
+}
+
+.principal {
+    width: 100%;
+    min-height: 83vh;
+    text-align: center;
+    padding-top: 150px;
+    background-color: aquamarine;
+
+}
+
+.principal img {
+    width: 250px;
+}
+
+.contactos {
+    padding: 30px;
+    width: 500px;
+}
+
+.contactos .contacto {
+    display: flex;
+    min-height: 70px;
+    border-color: black;
+    border-top: solid 1px;
+    padding: 15px;
+}
+
+
+.contactos .contacto img {
+    width: 60px;
+    border-radius: 30px;
+}
+
+.contactos .contacto .info {
+    text-align: left;
+    padding: 10px;
+    margin-right: 100px;
+}
+
+.nuevo-chat {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    border-color: black;
+    border-top: solid 1px;
+}
+
+.nuevo-chat button {
+    padding: 10px;
+    background-color: blueviolet;
+    color: white;
+    border-radius: 10px;
+
+}
+
+.contactos nav {display: flex;justify-content: space-between;
+padding-bottom: 15px;}
+
+.contactos nav img{width: 60px;border-radius: 30px;}
+
+.contactos .perfil{display: flex;font-size: 12px;align-items: center;}
+
+.contactos nav .perfil .info {padding: 10px;}
+
+.contactos nav .items {display: flex;align-items: center;}
+
+.contactos nav .items i {padding: 5px;}
